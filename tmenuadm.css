@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.3s;
+}
+
+.itens {
+    display: flex;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23232e;
+    height: 8vh;
+}
+
+main {
+    height: 92vh;
+    background: linear-gradient(90deg, lightblue, pink);
+    
+}
